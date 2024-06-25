@@ -31,7 +31,7 @@ jobs:
 
     - name: Login to Azure
       id: azure_login
-      uses: azure/login@v1.4
+      uses: azure/login@v1.4.6
       with:
         creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_68da80377c9245d59d3ecd47634660dd }}
         enable-AzPSSession: true
